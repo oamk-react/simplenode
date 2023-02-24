@@ -2,7 +2,8 @@ import './App.css';
 import axios from 'axios';
 import { useEffect, useState } from 'react';
 
-const URL = 'http://localhost:3001/'
+//const URL = 'http://localhost:3001/'
+const URL = 'https://simplenode-hlr7.onrender.com'
 
 function App() {
   const [message, setMessage] = useState('test')
